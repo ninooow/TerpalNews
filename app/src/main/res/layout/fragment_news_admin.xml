@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:padding="16dp"
+    tools:context=".ui.admin.NewsAdminFragment">
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/rv_articles_crud"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:itemCount="6"
+        tools:listitem="@layout/crud_news_item"
+        android:layout_marginTop="8dp"/>
+    <com.google.android.material.floatingactionbutton.FloatingActionButton
+        android:id="@+id/add_articles"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/add_articles"
+        app:backgroundTint="@color/dark_blue"
+        app:tint="@null"
+        android:contentDescription="Tambahkan Artikel Baru"
+        android:tooltipText="Tambah Artikel"
+        android:layout_gravity="bottom|end"
+        android:layout_marginBottom="16dp"/>
+</FrameLayout>

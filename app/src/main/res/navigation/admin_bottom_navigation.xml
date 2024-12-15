@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/admin_bottom_navigation"
+    app:startDestination="@id/homeAdminFragment">
+    <fragment
+        android:id="@+id/homeAdminFragment"
+        android:name="com.example.terpalnews.ui.admin.HomeAdminFragment"
+        android:label="fragment_home_admin"
+        tools:layout="@layout/fragment_home_admin" />
+    <fragment
+        android:id="@+id/newsAdminFragment"
+        android:name="com.example.terpalnews.ui.admin.NewsAdminFragment"
+        android:label="fragment_news_admin"
+        tools:layout="@layout/fragment_news_admin" />
+</navigation>

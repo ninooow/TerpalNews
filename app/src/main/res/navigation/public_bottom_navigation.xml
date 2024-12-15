@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+             xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/public_bottom_navigation"
+    app:startDestination="@id/homePublicFragment">
+    <fragment
+        android:id="@+id/homePublicFragment"
+        android:name="com.example.terpalnews.ui.publik.HomePublicFragment"
+        android:label="fragment_home_public"
+        tools:layout="@layout/fragment_home_public" />
+    <fragment
+        android:id="@+id/bookmarkPublicFragment"
+        android:name="com.example.terpalnews.ui.publik.BookmarkPublicFragment"
+        android:label="fragment_bookmark_public"
+        tools:layout="@layout/fragment_bookmark_public" />
+    <fragment
+        android:id="@+id/profilePublicFragment"
+        android:name="com.example.terpalnews.ui.publik.ProfilePublicFragment"
+        android:label="fragment_profile_public"
+        tools:layout="@layout/fragment_profile_public" />
+</navigation>

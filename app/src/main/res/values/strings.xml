@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">Terpal News</string>
+
+    <string name="konten_news">
+        Harimau Sumatera (Panthera tigris sumatrae) merupakan salah satu fauna khas Indonesia yang memiliki habitat dalam Taman Nasional Kerinci Seblat (TNKS), yang terbentang dalam empat provinsi di Pulau Sumatera meliputi Sumatera Selatan, Jambi, Bengkulu dan Sumatera Barat.\n\n
+        Kucing besar ini menjadi bagian dari 4.000 spesies flora dan fauna endemik TNKS yang memiliki luasan mencapai 1,3 juta hektare tersebut.\n\n
+        Di dalam kawasan TNKS selain dihuni harimau Sumatera, juga ada badak Sumatera, gajah Sumatera, macan dahan, tapir melayu, beruang madu, dan sekitar 370 spesies burung.\n\n
+        Sedangkan tumbuh-tumbuhan yang ada antara lain jenis bunga terbesar di dunia Rafflesia Arnoldii, kemudian bunga tertinggi di dunia Amorphophallus titanum, berbagai jenis anggrek dan lainnya.\n\n
+        Maraknya aksi perburuan dan perambahan serta kasus penebangan kayu dalam kawasan TNKS sejak beberapa puluh tahun belakangan membuat flora dan fauna khas TNKS terancam punah.\n\n
+    </string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+</resources>
